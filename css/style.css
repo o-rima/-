@@ -1,0 +1,460 @@
+/* ここから下に記載していく */
+
+
+body{
+    width: 1200px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.example {
+    position: relative;
+    }
+
+.example p {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+    margin:0;
+    top: 40%;
+    left: 50%;
+    font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .example p2{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        transform: translate(-50%,-50%);
+        margin:0;
+        top: 60%;
+        left: 50%;
+        font-family: 'Noto Sans JP', sans-serif;
+        }
+
+.example img {
+    width: 1200px;
+    }
+
+.menu{
+        font-size: 20px;
+        display: table;
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+        text-align: center;
+        float: right;
+        }
+        .menu li{
+        
+        display: table-cell;
+        min-width: 50px;
+        }
+        .menu li a{
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        text-decoration: none;
+        color: #555;
+        font-weight: bold;
+        }
+        .menu li.current{
+        background-color: #DEEBF7;
+        }
+        .menu li.current a{
+        color: #555;
+        }
+        .menu li:hover{
+        background-color: #ffecb4;
+        }
+        
+
+
+
+
+    .about{
+        text-align: center
+    }
+
+    .about h1{
+        color: rgb(247, 198, 53);
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 5em;
+        margin-bottom: 1em;
+        }
+    
+    .about h2{
+        margin-bottom: 3em;
+    }
+
+    .abouttext1{
+        margin-bottom: 1em;
+}
+
+    .abouttext2{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .about p{
+        line-height: 1.5;
+    }
+
+
+
+    .image1{
+        display: flex;
+        width: 300px;
+        height: 200px;
+        margin-top: 2em;
+    }
+
+    .course{
+        text-align: center;
+        margin-top: 8em;
+        }
+
+    .course h1{
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 1em;
+    }
+
+    .course h2{
+        margin-bottom: 3em;
+    }
+
+    .course p{
+        line-height: 1.5;
+    }
+
+    .image2{
+        display: flex;
+        margin-top: 3em;
+        background-color: rgb(240,240,240);
+    }
+
+    .image2 img{
+        width: 600px;
+    }
+
+    .image2text{
+        position: relative;
+        margin-top: 9em;
+        margin-left: 4em;
+    }
+
+    .image2text h1{
+        font-weight: bold;
+        margin-bottom: 2em;
+    }
+
+    .image2text p{
+
+        line-height: 1.5;
+        font-size: 13px;
+    } 
+
+    .image3{
+        display: flex; 
+        background-color: rgb(240,240,240);
+    }
+
+    .image3text{
+        position: relative;
+        margin-top: 9em;
+        margin-left: 4em;
+        margin-right: auto;
+    }
+
+    .image3text h1{
+        font-weight: bold;
+        margin-bottom: 2em;
+    }
+
+    .image3text p{
+
+        line-height: 1.5;
+        font-size: 13px;
+    } 
+
+    .image3 img{
+        width: 600px;
+        margin-left: auto;
+    }
+
+    .image4{
+        display: flex;
+        background-color: rgb(240,240,240);
+    }
+
+    .image4 img{
+        width: 600px;
+    }
+
+    .image4text{
+        position: relative;
+        margin-top: 9em;
+        margin-left: 4em;
+    }
+
+    .image4text h1{
+        font-weight: bold;
+        margin-bottom: 2em;
+    }
+
+    .image4text p{
+
+        line-height: 1.5;
+        font-size: 13px;
+    } 
+
+    .newstitle{
+        text-align: center;
+    }
+
+    .newstitle h1{
+        color: rgb(247, 198, 53);
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 4em;
+        margin-bottom: 1em;
+        }
+    
+    .about h2{
+        margin-bottom: 3em;
+    }
+
+    .news{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        margin-top: 3em;
+    }
+
+    .newstext{
+        text-align: left;
+        margin-left: 2em;
+}
+
+    .news li{
+        width: 40%;
+    }
+
+    .news img{
+        width: 80%;
+    }
+
+    .news h1{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        font-weight: bold;
+    }
+
+    .news h2{
+        text-align: left;
+        margin-left: 3em;
+        line-height: 3;
+        font-size: 10px;
+    }
+
+    .news p{
+        text-align: left;
+        margin-left: 3em;
+        line-height: 1.5;
+        font-size: 12px;
+
+    }
+
+    .newsmore{
+        text-align: center;
+        margin-top: 3em;
+    }
+
+    a.btn_01 {
+        font-size: 13px;
+        display: block;
+        text-decoration: none;
+        margin:0 auto;
+        padding: 1rem 4rem;
+        width: 110px;
+        font-weight: bold;
+        border: 2px solid rgb(247, 198, 53);
+        color: rgb(247, 198, 53);
+        transition: 0.3s;
+    }
+    a.btn_01:hover {
+        color: #fff;
+        background: rgb(247, 198, 53);
+    }
+
+.access{
+    text-align: center;
+    margin-top: 5em;
+    padding-top: 4em;
+    background-color: rgb(240,240,240);
+    }
+
+.access h1{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+
+.access h2{
+    padding-bottom: 3em;
+}
+
+    .map {
+        width: 100%;
+        position: relative;
+        height: 0;
+        padding-top: 20%;
+    }
+    
+    .map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .c1{
+        padding-top: 3em;
+        text-align: center;
+        background-color:  rgb(240,240,240);
+        margin-bottom: 5em;
+    }
+
+    .c1 span{
+        font-weight: bold;
+    }
+
+    .c2{
+        line-height: 2.0;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 480px; 
+        padding-bottom: 4em;
+    }
+
+    .contact{
+        text-align: center
+    }
+
+    .contact h1{
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 4em;
+        margin-bottom: 1em;
+        }
+    
+    .contact h2{
+        margin-bottom: 3em;
+    }
+
+    .contacttext1{
+        margin-bottom: 1em;
+}
+
+    .contacttext2{
+        margin-top: 1em;
+        margin-bottom: 4em;
+    }
+
+    .contact p{
+        line-height: 1.5;
+    }
+
+    form {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .form-row {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 1px solid #f2f4f5;
+        line-height: 1.5;
+    }
+    .form-row:last-child {
+        border-bottom: none;
+    }
+    .form-label {
+        display: flex;
+        align-items: center;
+        width: 250px;
+    }
+    .form-label label {
+        font-weight: bold;
+    }
+    .form-label span {
+        margin-left: 10px;
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #e6a442;
+    }
+    
+    input, textarea {
+        background-color: #f2f4f5;
+        border: none;
+        border-radius: 3px;
+        padding: 15px 20px;
+        font-size: 13px;
+        color: #333;
+        flex-grow: 1;
+    }
+    input::placeholder,
+    textarea::placeholder {
+        color: #999;
+        font-size: 14px;
+    }
+    select {
+        background-color: #f2f4f5;
+        border: none;
+        border-radius: 3px;
+        padding: 15px 20px;
+        font-size: 15px;
+        color: #333;
+    }
+
+    input {
+        margin: 0.4rem;
+    }
+    
+    a.btn_02 {
+        font-size: 13px;
+        display: block;
+        text-decoration: none;
+        margin:0 auto;
+        padding: 1rem 2rem;
+        width: 110px;
+        font-weight: bold;
+        border: 2px solid rgb(247, 198, 53);
+        color: rgb(247, 198, 53);
+        transition: 0.3s;
+    }
+    a.btn_02:hover {
+        color: #fff;
+        background: rgb(247, 198, 53);
+    }
+
+.last{
+    width: 1200px;
+    text-align: center;
+    background-color: #656565;
+    color: white;
+    font-size: 12px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 7em;
+}
